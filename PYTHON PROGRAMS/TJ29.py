@@ -1,0 +1,39 @@
+names={"ram","sam",'ravi'}
+print(names)
+print(type(names))
+for name in  names:
+    print(name)
+names.add('sara')
+print(names)
+a={"kumar","sundar","suresh"}
+names.update(a)
+print(names)
+names.remove('sara')
+print(names)
+names.discard("suresh")
+print(names)
+names.pop()
+print(names)
+names.clear()
+print(names)
+del names
+names={'ram','ram','sam','ravi','kumar'}
+print(names)
+a={1,2,3,4,5}
+b={5,6,7,8,9}
+c=a.intersection(b)
+print(c)
+a.intersection_update(b)
+print(a)
+c=a.symmetric_difference(b)
+print(c)
+a.symmetric_difference_update(b)
+print(a)
+a={5,6,7}
+b={5,6,7}
+c=a.isdisjoint(b)
+print(c)
+c=a.issubset(b)
+print(c)
+c=a.issuperset(b)
+print(c)

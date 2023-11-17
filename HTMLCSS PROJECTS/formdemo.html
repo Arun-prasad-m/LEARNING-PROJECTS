@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signup.html" method="GET">
+        <div>
+            <label FOR="USERNAME">user name</label>
+            <input TYPE="TEXT" NAME="USERNAME" ID="USERNAME" VALUE="ARUN" SIZE="5" MAXLENGTH="9" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label FOR="PASSWORD">password</label>
+            <input TYPE="PASSWORD" NAME="PASSWORD" ID="PASSWORD" PLACEHOLDER="PASSWORD" required minlength="3">
+        </div>
+        <div>
+            <label for="dateofbirth">date of birth</label>
+            <input type="date" name="dateofbirth" id="dateofbirth" min="1900" step="2">
+        </div>
+        <div>
+            <label for="about">about us</label>
+            <textarea name="about" id="about" col="5" row="6">about me....</textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="smsalert" id="smsalert">
+            <label for="smsalert">SMS ALERT</label>
+        </div>
+        <div>
+            <input type="checkbox" name="emailalert" id="emailalert">
+            <label for="emailalert">EMAIL ALERT</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <select name="state" id="state" multiple>
+            <option value="tamilnadu">tamilnadu</option>
+            <option value="kerla">kerala</option>
+            <option value="goa">goa</option>
+            </select>
+        </div>
+        <div>
+            <label for="file">choose file</label>
+            <input type="file" name="file" id="file">
+            </div>
+        <button TYPE="SUBMIT">sign up</button>
+        <BUTTON TYPE="RESET">RESET</BUTTON>
+    </form>
+</body>
+</html>

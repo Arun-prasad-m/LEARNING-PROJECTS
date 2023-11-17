@@ -1,0 +1,23 @@
+/*.box{
+    height:400px;
+    width:400px;
+    margin:auto;
+   /* background: linear-gradient(blue,yellow);*/
+   /*background: linear-gradient(to left ,blue,green,yellow);*/
+
+html{
+    font-size:20px;
+}
+
+.box{
+    font-size:1.5em;
+}
+
+.para1{
+    font-size:2em;
+}
+
+.para2{
+    font-size: 2rem;
+}
+ 

@@ -1,0 +1,28 @@
+h3{
+    color:blue
+}
+/* universal selector */
+*{
+    color:blueviolet
+}
+h4,h5{
+    color:aqua
+}
+#square{
+    color:brown
+}
+.ortext{
+    color:chartreuse
+}
+div>p{
+    color:black
+}
+div a{
+    color:red
+}
+h1~h4{
+    color:red
+}
+h2+h3{
+    color:red
+}

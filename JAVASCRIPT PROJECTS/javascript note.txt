@@ -1,0 +1,407 @@
+JAVASCRIPT
+
+-->console.log('hello')
+hello
+
+console.log(4+4)
+8
+
+ALERT MESSAGE
+ALERT("HI")
+
+FOR single line COMMENT
+//
+
+for multiline comment
+/*
+*/
+
+let score = 0 (to mention score is variable use let)
+score = 10
+console.log(score)
+10
+console.log("score")
+score
+
+let a=prompt("enter the number :")
+console.log(a+10)
+-->3
+310
+
+let a=prompt("enter the number :")
+console.log(Number(a)+10)
+-->3
+13
+
+DOCUMENT OBJECT MODEL
+let message=document.getElementById("message")-to get input like scanf statement
+    message.innerHTML="WELLCOME TO OUR CHANNEL"-to display like printf statement
+
+to initialize constant
+ const pi=3.14
+
+<script src="script.js">
+</script>
+
+//let name = prompt('arun prasad m')
+//console.log('hi', name)
+
+<button type="submit" onclick="convert()">Convert to inches</button>
+to perform function inside the onclick by click that button
+
+function convert(){
+        let cmVal=Number(document.getElementById("input").value)
+        let inchVal=cmVal/2.54
+        let result=document.getElementById("result")
+        result.innerHTML=inchVal.toFixed(2)
+    }
+function convert()-to initialize the function name
+
+result.innerHTML=inchVal.toFixed(2)
+to get fixed decimal point numbers
+
+Types of JavaScript Operators
+There are different types of JavaScript operators:
+
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators
+
+Operator	Description
+ +	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+MATH OBJECT
+
+Math.E        // returns Euler's number
+Math.PI       // returns PI
+Math.SQRT2    // returns the square root of 2
+Math.SQRT1_2  // returns the square root of 1/2
+Math.LN2      // returns the natural logarithm of 2
+Math.LN10     // returns the natural logarithm of 10
+Math.LOG2E    // returns base 2 logarithm of E
+Math.LOG10E   // returns base 10 logarithm of E
+Math.round(x)	Returns x rounded to its nearest integer
+Math.ceil(x)	Returns x rounded up to its nearest integer
+Math.floor(x)	Returns x rounded down to its nearest integer
+Math.trunc(x)	Returns the integer part of x (new in ES6)
+
+JavaScript Math Methods
+Method	Description
+abs(x)	Returns the absolute value of x
+acos(x)	Returns the arccosine of x, in radians
+acosh(x)	Returns the hyperbolic arccosine of x
+asin(x)	Returns the arcsine of x, in radians
+asinh(x)	Returns the hyperbolic arcsine of x
+atan(x)	Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+atan2(y, x)	Returns the arctangent of the quotient of its arguments
+atanh(x)	Returns the hyperbolic arctangent of x
+cbrt(x)	Returns the cubic root of x
+ceil(x)	Returns x, rounded upwards to the nearest integer
+cos(x)	Returns the cosine of x (x is in radians)
+cosh(x)	Returns the hyperbolic cosine of x
+exp(x)	Returns the value of Ex
+floor(x)	Returns x, rounded downwards to the nearest integer
+log(x)	Returns the natural logarithm (base E) of x
+max(x, y, z, ..., n)	Returns the number with the highest value
+min(x, y, z, ..., n)	Returns the number with the lowest value
+pow(x, y)	Returns the value of x to the power of y
+random()	Returns a random number between 0 and 1
+round(x)	Rounds x to the nearest integer
+sign(x)	Returns if x is negative, null or positive (-1, 0, 1)
+sin(x)	Returns the sine of x (x is in radians)
+sinh(x)	Returns the hyperbolic sine of x
+sqrt(x)	Returns the square root of x
+tan(x)	Returns the tangent of an angle
+tanh(x)	Returns the hyperbolic tangent of a number
+trunc(x)	Returns the integer part of a number (x)
+
+STRING
+let str1="what is your name, "
+let str2="my name is arun prasad m"
+str1+str2
+
+'what is your name, my name is arun prasad m'
+
+str1.concat(str2)
+
+'what is your name, my name is arun prasad m'
+
+slice(start,end)
+substring(start,end)
+substr(start,length)
+str1.slice(4,10)
+
+' is yo'
+str1.replace("n","y")
+n replaced by y
+
+like that
+String length
+String slice()
+String substring()
+String substr()
+String replace()
+String replaceAll()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String charAt()
+String charCodeAt()
+String split()
+
+ let firstname="arun"
+   let lastname="prasad"
+   let placename="chennai"
+   console.log(firstname +" "+ lastname + " is lived in" + " "+ placename )
+   console.log( `${firstname} ${lastname} is lived in ${placename}`)
+arun prasad is lived in chennai
+
+arun prasad is lived in chennai
+
+ARRAY
+An array is a special variable, which can hold more than one value:
+
+const cars = ["Saab", "Volvo", "BMW"];
+const array_name = [item1, item2, ...]; 
+
+Using the JavaScript Keyword new
+The following example also creates an Array, and assigns values to it:
+
+Example
+const cars = new Array("Saab", "Volvo", "BMW");
+
+Accessing Array Elements
+You access an array element by referring to the index number:
+
+const cars = ["Saab", "Volvo", "BMW"];
+let car = cars[0];
+
+Changing an Array Element
+This statement changes the value of the first element in cars:
+
+cars[0] = "Opel";
+Example
+const cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "Opel";
+
+Converting an Array to a String
+The JavaScript method toString() converts an array to a string of (comma separated) array values.
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+
+Arrays are Objects
+Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
+
+But, JavaScript arrays are best described as arrays.
+
+Arrays use numbers to access its "elements". In this example, person[0] returns John:
+
+Array:
+const person = ["John", "Doe", 46];
+
+ARRAY METHOD
+Array length
+Array toString()
+Array pop()
+Array push()
+Array shift()
+Array unshift()
+Array join()
+Array delete()
+Array concat()
+Array flat()
+Array splice()
+Array slice()
+
+if else
+if (condition) {
+  //  block of code to be executed if the condition is true
+} else {
+  //  block of code to be executed if the condition is false
+}
+
+else if
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+
+switch cases
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+
+OBJECTS
+ to create object 
+let item={
+    name:'phone',
+    price: 25000,
+    quantity:1
+}
+console.log(item)
+
+let item2= new Object();
+
+item2.name = 'charger'
+item2.price = 700
+item2.quantity = 1
+
+console.log(item2)
+
+console.log(item2)
+console.log(item.price)
+25000
+item.price = 240000
+console.log(item.price)
+240000
+item.returnable = true
+added returnable in property of object
+
+let item={
+    name:'phone',
+    price: 25000,
+    quantity:1,
+    categories:['elect','phones'], 		array
+    dimension:{					properties inside properties
+        length: 7.1,
+        breadth: 5,
+        height: 10
+    }
+console.log(item)
+
+function in object
+
+item={
+    name:'phone',
+    price: 25000,
+    quantity:1,
+    buy: function(){
+        console.log('item added to cart')
+    },
+    addtolist(){
+        console.log('item added to list')
+    }
+
+}
+item.buy()
+item.addtolist()
+
+The For Loop
+The for statement creates a loop with 3 optional expressions:
+
+for (expression 1; expression 2; expression 3) {
+  // code block to be executed
+}
+Expression 1 is executed (one time) before the execution of the code block.
+
+Expression 2 defines the condition for executing the code block.
+
+Expression 3 is executed (every time) after the code block has been executed.
+
+Example
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+From the example above, you can read:
+
+Expression 1 sets a variable before the loop starts (let i = 0).
+
+Expression 2 defines the condition for the loop to run (i must be less than 5).
+
+Expression 3 increases a value (i++) each time the code block in the loop has been executed.
+
+The While Loop
+The while loop loops through a block of code as long as a specified condition is true.
+
+Syntax
+while (condition) {
+  // code block to be executed
+}
+Example
+In the following example, the code in the loop will run, over and over again, as long as a variable (i) is less than 10:
+
+Example
+while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}
+
+The Do While Loop
+The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+Syntax
+do {
+  // code block to be executed
+}
+while (condition);
+Example
+The example below uses a do while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:
+
+Example
+do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);
+
+The For In Loop
+The JavaScript for in statement loops through the properties of an Object:
+
+Syntax
+for (key in object) {
+  // code block to be executed
+}
+Example
+const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+}
+Example Explained
+The for in loop iterates over a person object
+Each iteration returns a key (x)
+The key is used to access the value of the key
+The value of the key is person[x]
+
+The For Of Loop
+The JavaScript for of statement loops through the values of an iterable object.
+
+It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
+
+Syntax
+for (variable of iterable) {
+  // code block to be executed
+}
+variable - For every iteration the value of the next property is assigned to the variable. Variable can be declared with const, let, or var.
+
+iterable - An object that has iterable properties.

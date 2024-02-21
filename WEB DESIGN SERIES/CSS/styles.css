@@ -1,0 +1,22 @@
+h1 {
+    color: red
+}
+
+p {
+    font-size: 30px;
+    color: orange;
+    background-color: red;
+    border: 1px solid blue;
+}
+
+#para1 {
+    font-size: 30px;
+    color: blueviolet;
+    background-color: red;
+    border: 1px solid green;
+}
+
+.cpm {
+    color: greenyellow;
+    background-color: white;
+}
